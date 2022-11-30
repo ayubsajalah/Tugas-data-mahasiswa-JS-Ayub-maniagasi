@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    
+        <meta charset="UTF-8">
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Tugas JavaScript</title>
+    
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+    
+    
+  <div class="BLOK"> 
+    
+    <form name ="Form">
+
+        <h2>Data Mahasiswa </h2>
+
+        <h2>Universitas Komputer Indonesia</h2>
+
+        <hr>
+
+
+        <PRE>
+
+
+            Nim                        <input  class="NIM" type="number" size="25" name="NimInput">
+
+
+
+            Nama Mahasiswa              <input class="nama" type="text" size="20" name="NamaInput"> 
+
+
+
+            Jenis Kelamain              <select class="jenis" name="JemiskelaminInput" Size="1">
+
+                <option></option>
+
+                <option>Laki-Laki</option>
+
+                <option>Perempuan</option>  
+
+            </select> 
+
+
+
+            Agama                       <select class="Agama" name="AgamaInput" Size="1">
+
+                <option></option>
+
+                <option>Katolik</option>
+
+                <option>Islam</option>  
+
+                <option>Kristen</option>  
+
+                <option>Hindu</option>  
+
+                <option>Buddah</option>  
+
+                <option>Konghucu</option>  
+
+            </select> 
+
+
+
+            Status                      <input type="radio" value="Kawin" name="KawinInput">Kawin 
+
+            Jurusan S1 Informatika      <select name="JurusanInput" Size="1">
+
+                <option></option>
+
+                <option>Teknologi Rekayasa Informatika</option>
+
+                <option>Teknik Mesin</option>  
+
+                <option>Teknik Sipil</option>  
+
+                <option>Teknik Listrik</option>  
+
+                <option>Teknik Tambang</option>  
+
+            </select> 
+
+        
+
+            Komentar                    <textarea name="KomentarInput" rows="3" cols="30"></textarea> 
+        
+           
+          
+                              <input class="tombol" type="button" value="kirim" onclick="tekan()">   <input class="tomboll" type="reset" value="Bersikan">
+
+                                                                            
+
+                            <H3>Output</H3> 
+
+
+
+        </PRE>
+
+
+
+        <br>
+
+       
+    
+
+
+        <PRE>
+
+            Jadi Nama Anda adalah           <input type="text" size="25" name="NimOutput">
+
+            Alamat Anda di                  <input type="text" size="25" name="NamaOutput"> 
+
+            Jenis Kelamain                  <input type="text" size="25" name="JemiskelaminOutput"> 
+
+            Agama                           <input type="text" size="25" name="AgamaOutput">  
+
+            Status                          <input type="text" size="25" name="StatusOutput">  
+
+            Jurusan S1 Informatika          <input type="text" size="25" name="JurusanOutput">  
+
+            Komentar                        <textarea name="KomentarOutput" rows="3" cols="30"></textarea> 
+
+        </PRE>
+
+    </form>
+
+</div>
+
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
